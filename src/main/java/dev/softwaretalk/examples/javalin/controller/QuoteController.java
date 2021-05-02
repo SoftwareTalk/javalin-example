@@ -1,6 +1,8 @@
-package dev.softwaretalk.examples.javalin.service.quote;
+package dev.softwaretalk.examples.javalin.controller;
 
 import dev.softwaretalk.examples.javalin.dto.QuoteDto;
+import dev.softwaretalk.examples.javalin.service.quote.QuoteProvider;
+import dev.softwaretalk.examples.javalin.service.quote.SupportedQuote;
 import dev.softwaretalk.examples.javalin.service.quote.impl.FriedsQuote;
 import dev.softwaretalk.examples.javalin.service.quote.impl.HarryPotterQuote;
 import dev.softwaretalk.examples.javalin.service.quote.impl.HimymQuote;

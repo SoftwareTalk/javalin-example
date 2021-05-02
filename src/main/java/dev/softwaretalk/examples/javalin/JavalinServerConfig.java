@@ -1,7 +1,7 @@
 package dev.softwaretalk.examples.javalin;
 
 import dev.softwaretalk.examples.javalin.controller.GreetingController;
-import dev.softwaretalk.examples.javalin.service.quote.QuoteController;
+import dev.softwaretalk.examples.javalin.controller.QuoteController;
 import dev.softwaretalk.examples.javalin.service.quote.SupportedQuote;
 import io.javalin.Javalin;
 
